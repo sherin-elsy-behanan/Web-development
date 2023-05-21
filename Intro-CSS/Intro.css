@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Montserrat:wght@400;500&family=Shadows+Into+Light&display=swap');
+body {
+    background-color: rgb(224, 200, 245);
+    font-family: 'Montserrat', sans-serif;
+    
+    background-size: cover;
+    opacity: 0.2px;
+
+}
+
+h1{
+
+    color: rgb(2, 2, 52);
+}
+.new{
+    color: rgb(96, 4, 4);
+}
+#new{
+    color: blueviolet;
+} 
+/*box model*/
+.new2{
+    padding: 20px;
+    margin-top: 10px;
+    border: solid black;
+    display: inline-block;
+}
+.new3{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(21, 16, 16, 0.2);
+    
+    color: black;
+}
+.bg{
+    
+    background-image: url(image1.avif);
+    background-size: contain;
+    border: dotted black;
+    
+}
+.text{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(243, 217, 217, 0.796);
+    border: solid black;
+}
+/*study flexbox & grid*/
