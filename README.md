@@ -1,1 +1,1 @@
-# Web-development
+Reworking and studiying web development workshop(Weboski)
