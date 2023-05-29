@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500&display=swap');
+body{
+ 
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.header{
+   
+    width: 100%;
+    height: 85px;
+    background-color: rgb(28, 46, 101);
+}
+.facebook{
+    padding-top: 1.5em;
+    color: white;
+    width: 50%;
+    float: left;
+   
+}
+.sign-up{
+    width: 50%;
+    float: left;
+    color: white;
+   
+}
+.fb{
+    margin-left: 4.5em;
+    display: block;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forgotten{
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(204, 200, 223);
+
+
+}
+
+table{
+    margin-left: 10.2em;
+    
+}
+.button-login{
+   background-color: rgb(39, 39, 99);
+   color: white;
+   margin-left: 0.3em;
+   padding: 0.2em;
+   cursor: pointer;
+   border-radius: 2px;
+   border-color: black;
+}
+.button-login:hover{
+    background-color:  rgb(45, 45, 118);
+}
+.name{
+    font-size: 13px;
+    font-weight: 480;
+
+}
+label{
+    margin-left: 0.5em;
+}
+.body-main{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(white,rgb(210, 210, 248));
+}
+.body-left{
+width: 59%;
+float: left;
+}
+.body-right{
+width:41%;
+float: left;
+
+
+}
+h2{
+
+    color:  rgb(28, 46, 101);
+    margin-left: 6.5em;
+    margin-top: 1.7em;
+    font-size: 1.4em;
+}
+h1{
+    padding-top: 0.5em;
+    margin: 0%;
+    font-size: 2.5em;
+}
+h3{
+    padding-top: 0.3em;
+    margin: 0;
+    font-weight: 600;
+    font-size:1.1em;
+    margin-bottom: 1.5em;
+}
+.form-size{
+    
+    width: 70%;
+    height: 35px;
+    border: 1px solid  rgb(164, 161, 161) ;
+    border-radius: 3px 3px;
+    box-sizing: border-box;
+    margin: 0%;
+    font-size: 15px;
+    
+}
+.fname{
+    width: 35%;
+    float: left;
+   
+
+
+}
+.sname{
+    width: 35%;
+    float: left;
+    margin-left: 0.4em;
+    
+    
+}
+.form-size1{
+    width: 96%;
+    height: 35px;
+    border: 1px solid  rgb(164, 161, 161) ;
+    border-radius: 3px 3px;
+    box-sizing: border-box;
+    margin: 0%;
+    font-size: 15px;
+}
+.body-form{
+    margin-top: 1em;
+}
+.new{
+    padding-top: 0.5em;
+}
+.b-date{
+    width: 90%;
+    height: 30px;
+    border: 1px solid  rgb(164, 161, 161) ;
+    border-radius: 3px 3px;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.img{
+    margin-left: 10em;
+    height: 200px;
+}
+.div-bday{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 0.4em;
+}
+.p-bday{
+    
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: rgb(79, 79, 132);
+    font-weight: 500;
+    padding-bottom: 0;
+    margin: 0;
+}
+.ques{
+    margin: 0;
+    margin-top: 0.8em;
+    background-color: rgb(79, 79, 132);
+    border-radius: 700px;
+    
+    width: 1.2em;
+    height: 1.3em;
+    font-size: 12px;
+} 
+.mark{
+    text-decoration: none;
+    color: white;
+    margin-left: 4px;
+    cursor: pointer;
+
+}
+.ques2{
+    margin: 0.3em;
+    margin-top: 0.3em;
+    background-color: rgb(79, 79, 132);
+    border-radius: 700px;
+    margin-bottom: 1.8em;
+    
+    width: 1.2em;
+    height: 1.3em;
+    font-size: 12px;
+}
+.div-gender{
+    padding-top: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0%;
+}
+.gender{
+    width: 200%;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 550;
+}
+.content-down{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: rgb(79, 79, 132);
+    margin-bottom: 1.7em;
+}
+.button-signup{
+
+font-size: 14px;
+padding: 11px;
+padding-left: 80px;
+padding-right: 80px;
+margin: 0;
+background: linear-gradient( rgb(43, 156, 35),rgb(0, 93, 0));
+border: none;;
+border: none;
+font-weight: 550;
+color: white;
+border-radius: 0.3em;
+cursor: pointer;
+}
